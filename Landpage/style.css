@@ -1,0 +1,167 @@
+.logo img {
+    width: 164px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+    gap: 54px;
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.logo1 img {
+    width: 32px;
+    height: 31px;
+}
+
+.right ul img {
+    display: inline-block;
+
+}
+
+section .first {
+    margin-top: 25px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+
+
+.text {
+    font-size: xxx-large;
+    font-weight: bolder;
+
+}
+
+.text3 {
+    font-size: xx-large;
+}
+
+.text1 {
+    font-size: xx-large;
+
+}
+
+.text2 {
+    margin-top: 25px;
+
+
+}
+
+.text2 {
+    justify-items: center;
+    font-size: 24px;
+    width: 64vw;
+    text-align: center;
+
+
+}
+
+.box {
+    margin-top: 30px;
+    background: #00b6d1;
+    border-radius: 6px;
+    font-size: medium;
+    color: white;
+    font-weight: 800;
+    padding: 1px 14px;
+    cursor: pointer;
+}
+
+.box a {
+    color: white;
+    text-decoration: none;
+}
+
+.first {
+    align-items: center;
+    justify-content: center;
+
+
+    justify-items: center;
+}
+
+.second {
+    max-width: 66vw;
+    margin: auto;
+    padding-top: 56px;
+}
+
+.green {
+    background-color: #15e615;
+}
+
+.blue {
+    background-color: #00b6d1;
+}
+
+.btn {
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.item {
+    padding: 23px;
+    background: #e7e3e3;
+    border-radius: 12px;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    text-align: center;
+}
+
+.Download div {
+    font-size: x-large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.Download {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:912px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
